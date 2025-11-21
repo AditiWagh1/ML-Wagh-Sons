@@ -70,11 +70,35 @@
                                     <p>Inquiry / Helpline : <a href="tel: 1234567894">1234567894</a></p>
                                 </div>
                             </div>
+                            <div style="text-align: center; padding: 20px;">
+    </div>
             </div>
         </header>
+        <div class="container text-center py-4" style="background: #0d0d0d;">
+            <p style="color: #a8741a; margin-bottom: 10px;"></p>
+            <button id="task1-alert-btn" 
+                    style="padding: 10px 20px; background: #a8741a; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                COMING SOON
+            </button>
+            <p style="color: #a0a0a0; margin-top: 10px; font-size: 12px;"></p>
+        </div>
     </div>
 <!-- Ion Icons Script (Correctly placed at the end of the body) -->
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+        // Temporary code to fulfill the Task 1 requirement of using an alert box.
+        // This targets the button placed immediately below the header in index.html.
+        const alertButton = document.getElementById('task1-alert-btn');
+
+        if (alertButton) {
+            alertButton.addEventListener('click', function() {
+                // IMPORTANT: This uses the function the internship task sheet specified (alert()).
+                // REMEMBER TO DELETE THIS ENTIRE SCRIPT BLOCK and the HTML BUTTON 
+                // when moving to Task 2 to avoid disrupting the main project structure!
+                alert('Task 1 Interactivity Demonstrated!');
+            });
+        }
+    </script>
 </body>
 </html>
