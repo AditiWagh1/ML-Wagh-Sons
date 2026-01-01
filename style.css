@@ -2412,3 +2412,25 @@ p {
   background: #a8741a;
   color: #fff;
 }
+.quiz-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+.quiz-btn {
+  padding: 14px 40px;
+  font-size: 18px;
+  background: linear-gradient(135deg, #f5c16c, #d4a017);
+  color: #000;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.quiz-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  color: #000;
+}
