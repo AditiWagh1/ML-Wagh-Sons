@@ -209,4 +209,5 @@
     $(".product-details-large .tab-pane").removeClass("active show");
     $(".product-details-large " + $href).addClass("active show");
   });
+  
 })(jQuery);
